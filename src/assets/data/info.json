@@ -1,0 +1,8 @@
+{
+    "login": {
+        "username": "Specify a username. Allowed only alphanumeric, space ( ), underscore (_), and hyphen (-) characters.",
+        "password": "Minimum 4 characters are needed. Allowed alphanumeric and special characters.",
+        "forgotPassword": "It helps you to get a reset password link to your configured email for your username."
+    }
+}
+ 

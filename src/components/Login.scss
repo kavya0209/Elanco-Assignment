@@ -1,0 +1,99 @@
+@import "../variables.scss";
+
+.navbar-login {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 64px;
+    padding: 28px 40px 28px 40px !important;
+    opacity: 1;
+    background-color: white;
+    z-index: 1;
+    width: 100%;
+}
+
+.login-container {
+    background: transparent;
+    background-color: rgba(255, 255, 255, 0.85);
+}
+
+.login-btn {
+    background-color: $PrimaryViolet;
+    color: #fff;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 14px;
+    height: 38px;
+    font-weight: bold;
+}
+
+.btn.login-btn:hover {
+    color: #fff;
+}
+
+.logintext {
+    text-align: left;
+    font: normal normal bold 24px/29px Helvetica;
+    letter-spacing: -0.48px;
+    color: #262135;
+    opacity: 1;
+}
+
+.input-cls {
+    position: relative;
+}
+
+.input-cls input {
+    font-size: 13px;
+    height: 38px;
+}
+
+.logincard {
+    width: 27%;
+    padding: 24px;
+    border: 2px solid #FF66CC;
+}
+
+.icon-cls {
+    position: absolute;
+    bottom: 8px;
+    right: 18px;
+    height: 20px;
+}
+
+.inputheader {
+    text-align: center;
+    font: normal normal normal 13px/16px Helvetica;
+    letter-spacing: 0px;
+    color: #262135;
+    opacity: 1;
+    font-weight: 600;
+}
+
+.forgot-cls {
+    text-align: left;
+    text-decoration: underline;
+    font: normal normal bold 14px/17px Helvetica;
+    letter-spacing: -0.28px;
+    color: $PrimaryViolet;
+    opacity: 1;
+    font-size: 12px;
+    cursor: not-allowed
+}
+
+.login-view {
+    background-color: white;
+    background-image: linear-gradient(to right, red , yellow);
+}
+
+.login-footer {
+    background-color: transparent;
+}
+
+.login-icon-style {
+    margin: 0 0px 2px 4px !important;
+}
+
+.invalid {
+    border: 1px solid red !important;
+}

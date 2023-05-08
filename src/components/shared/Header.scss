@@ -1,0 +1,40 @@
+.icon-pos {
+    position: relative;
+    bottom: 3px;
+    right: 2px;
+}
+
+.nav-customcls {
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+    display: block;
+    padding: 0.5rem 0rem;
+    font-size: var(--bs-nav-link-font-size);
+    font-weight: var(--bs-nav-link-font-weight);
+    color: var(--bs-nav-link-color);
+    text-decoration: none;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+    color: #fff !important;
+    font-size: 15px;
+    margin-left: 42px;
+    padding: 20px 0px;
+}
+
+.nav-customcls.active {
+    padding: 20px 0px 16px 0px;
+    border-bottom: 4px solid #fff;
+}
+
+.top-right-icon {
+    padding: 10px;
+    margin: 0 0 0 5px;
+}
+
+.fa-top-right-icon {
+    font-size: 20px !important;
+}
+
+.tool-name-css{
+    font-weight: bold;
+    font-size: 20px;
+}
